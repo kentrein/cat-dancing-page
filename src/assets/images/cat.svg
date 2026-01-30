@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 꼬리 -->
+  <g class="tail">
+    <path d="M160 140 Q180 120 175 100 Q170 80 185 70"
+          fill="none" stroke="#ff9a56" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- 몸통 -->
+  <ellipse cx="100" cy="130" rx="50" ry="40" fill="#ff9a56"/>
+
+  <!-- 배 -->
+  <ellipse cx="100" cy="135" rx="35" ry="28" fill="#ffe4c4"/>
+
+  <!-- 왼쪽 뒷다리 -->
+  <ellipse cx="65" cy="160" rx="15" ry="20" fill="#ff9a56"/>
+  <ellipse cx="65" cy="175" rx="12" ry="8" fill="#ffb380"/>
+
+  <!-- 오른쪽 뒷다리 -->
+  <ellipse cx="135" cy="160" rx="15" ry="20" fill="#ff9a56"/>
+  <ellipse cx="135" cy="175" rx="12" ry="8" fill="#ffb380"/>
+
+  <!-- 왼쪽 앞다리 -->
+  <g class="left-paw">
+    <ellipse cx="60" cy="140" rx="12" ry="25" fill="#ff9a56"/>
+    <ellipse cx="60" cy="162" rx="10" ry="8" fill="#ffb380"/>
+  </g>
+
+  <!-- 오른쪽 앞다리 -->
+  <g class="right-paw">
+    <ellipse cx="140" cy="140" rx="12" ry="25" fill="#ff9a56"/>
+    <ellipse cx="140" cy="162" rx="10" ry="8" fill="#ffb380"/>
+  </g>
+
+  <!-- 머리 -->
+  <circle cx="100" cy="70" r="45" fill="#ff9a56"/>
+
+  <!-- 왼쪽 귀 -->
+  <polygon points="60,40 70,10 85,35" fill="#ff9a56"/>
+  <polygon points="65,38 72,18 80,35" fill="#ffb3b3"/>
+
+  <!-- 오른쪽 귀 -->
+  <polygon points="140,40 130,10 115,35" fill="#ff9a56"/>
+  <polygon points="135,38 128,18 120,35" fill="#ffb3b3"/>
+
+  <!-- 얼굴 -->
+  <ellipse cx="100" cy="75" rx="35" ry="30" fill="#ffe4c4"/>
+
+  <!-- 왼쪽 눈 -->
+  <g class="left-eye">
+    <ellipse cx="82" cy="65" rx="10" ry="12" fill="white"/>
+    <circle cx="84" cy="65" r="6" fill="#333"/>
+    <circle cx="86" cy="63" r="2" fill="white"/>
+  </g>
+
+  <!-- 오른쪽 눈 -->
+  <g class="right-eye">
+    <ellipse cx="118" cy="65" rx="10" ry="12" fill="white"/>
+    <circle cx="116" cy="65" r="6" fill="#333"/>
+    <circle cx="118" cy="63" r="2" fill="white"/>
+  </g>
+
+  <!-- 코 -->
+  <ellipse cx="100" cy="80" rx="5" ry="4" fill="#ff6b9d"/>
+
+  <!-- 입 -->
+  <path d="M95 85 Q100 92 105 85" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 85 L100 80" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- 수염 -->
+  <g stroke="#333" stroke-width="1.5" stroke-linecap="round">
+    <line x1="70" y1="75" x2="50" y2="72"/>
+    <line x1="70" y1="80" x2="50" y2="82"/>
+    <line x1="70" y1="85" x2="52" y2="90"/>
+    <line x1="130" y1="75" x2="150" y2="72"/>
+    <line x1="130" y1="80" x2="150" y2="82"/>
+    <line x1="130" y1="85" x2="148" y2="90"/>
+  </g>
+
+  <!-- 볼 터치 -->
+  <circle cx="68" cy="82" r="8" fill="#ffb3b3" opacity="0.6"/>
+  <circle cx="132" cy="82" r="8" fill="#ffb3b3" opacity="0.6"/>
+</svg>
